@@ -30,6 +30,8 @@
  --Shades : #cf711f
  --Accents:
  --Grey:
+ #888
+ #767676  
  #777 #555 #333 
  #6f6f6f (lightest grey allowed on this #fdf2e9 background-color)
  
@@ -97,6 +99,10 @@ body{
 }
 .grid--4-cols{
   grid-template-columns: repeat(4,1fr);
+}
+
+.grid--5-cols{
+  grid-template-columns: repeat(5,1fr);
 }
 
 .grid--center-v{
